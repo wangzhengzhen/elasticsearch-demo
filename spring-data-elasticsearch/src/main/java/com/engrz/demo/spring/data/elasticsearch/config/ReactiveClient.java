@@ -1,15 +1,21 @@
 package com.engrz.demo.spring.data.elasticsearch.config;
 
+import org.elasticsearch.action.index.IndexResponse;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.elasticsearch.client.ClientConfiguration;
+import org.springframework.data.elasticsearch.client.reactive.ReactiveElasticsearchClient;
+import org.springframework.data.elasticsearch.client.reactive.ReactiveRestClients;
 
 /**
  *
  */
-@Configuration
+//@Configuration
 public class ReactiveClient {
 /*
+
     @Bean
-    ReactiveElasticsearchClient client() {
+    public ReactiveElasticsearchClient client() {
 
         ClientConfiguration clientConfiguration = ClientConfiguration.builder()
                 .connectedTo("localhost:9200", "localhost:9291")
@@ -23,17 +29,6 @@ public class ReactiveClient {
                 .build();
 
         return ReactiveRestClients.create(clientConfiguration);
-    }
-
-    public static void main(String[] args) {
-        Mono<IndexResponse> response = client.index(request ->
-
-        request.index("spring-data")
-                .type("elasticsearch")
-                .id(randomID())
-                .source(singletonMap("feature", "reactive-client"))
-                .setRefreshPolicy(IMMEDIATE);
-        ));
     }
 */
 

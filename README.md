@@ -1,10 +1,10 @@
 # elasticsearch-demo
-Elasticsearch演练，Elasticsearch与Spring Boot，Spring Date整合
+Elasticsearch演练，Elasticsearch与Spring Boot，Spring Data整合
 
 ## 版本
-JDK 1.8
-Elasticsearch 7.8.1
-Spring Boot 2.2.9.RELEASE
+- JDK 1.8
+- Elasticsearch 7.8.1
+- Spring Boot 2.2.9.RELEASE
 
 ## 参考
 1. [Java REST Client](https://www.elastic.co/guide/en/elasticsearch/client/java-rest/current/index.html)
